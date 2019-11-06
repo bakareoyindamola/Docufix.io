@@ -409,7 +409,7 @@ header .navbar .nav-links .nav-links-content li a .fas {
 .pricing-wrapper {
   background: #FFF;
   padding-top: 50px;
-  padding-bottom: 149px;
+  padding-bottom: 55px;
 }
 
 .pricing-content-wrapper {
@@ -577,11 +577,17 @@ header .navbar .nav-links .nav-links-content li a .fas {
   color: #FAFAFA;
 }
 
+.testimony-wrapper {
+  background: rgba(245, 244, 250, 0.25);
+  margin-bottom: 94px;
+}
+
 .testimony-content {
   width: 80%;
   max-width: 1248px;
   margin: auto;
-  margin-bottom: 94px;
+  padding-bottom: 55px;
+  padding-top: 55px;
 }
 
 .testimony-content h3 {
@@ -590,6 +596,7 @@ header .navbar .nav-links .nav-links-content li a .fas {
   line-height: 130%;
   color: rgba(51, 51, 51, 0.8);
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .testimony-content hr {
@@ -608,8 +615,23 @@ header .navbar .nav-links .nav-links-content li a .fas {
   margin-top: 83px;
 }
 
+.testimony-content .testimonials-wrapper .testimonials {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 25px rgba(81, 76, 101, 0.02);
+          box-shadow: 0px 4px 25px rgba(81, 76, 101, 0.02);
+  border-radius: 2px;
+  padding: 20px;
+}
+
+.testimony-content .testimonials-wrapper .testimonials hr {
+  width: 100%;
+  opacity: 0.05;
+  border: 1px solid #514C65;
+  margin-bottom: 16px;
+}
+
 .testimony-content .testimonials-wrapper .testimonials i {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 160%;
   color: #4C33A6;
   opacity: 0.3;
@@ -622,6 +644,15 @@ header .navbar .nav-links .nav-links-content li a .fas {
   line-height: 160%;
   color: #514C65;
   margin-bottom: 78px;
+}
+
+.testimony-content .testimonials-wrapper .testimonials .testimonials-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .testimony-content .testimonials-wrapper .testimonials .testimonials-img img {
@@ -796,6 +827,12 @@ header .navbar .nav-links .nav-links-content li a .fas {
 @media (min-width: 870px) and (max-width: 1159px) {
   .price-container {
     width: 50% !important;
+  }
+}
+
+@media (max-width: 460px) {
+  .rectangle {
+    left: 25px !important;
   }
 }
 
